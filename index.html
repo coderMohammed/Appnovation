@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    <!-- Mode Selection: Choose multiplayer or vs bot -->
+    <div id="mode-selection">
+      <button id="multiplayer">Multiplayer</button>
+      <button id="vs-bot">Play vs Bot</button>
+    </div>
+
+    <!-- Game Board -->
+    <div id="game-board" class="hidden">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+
+    <!-- Status Text (optional, not used in this version) -->
+    <p id="status"></p>
+
+    <!-- Restart Button (hidden by default) -->
+    <button id="restart" class="hidden">Restart</button>
+  </div>
+
+  <!-- Modal Popup for showing winner or draw -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h2 id="winner-message"></h2>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
